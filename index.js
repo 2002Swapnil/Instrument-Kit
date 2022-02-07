@@ -14,6 +14,7 @@ document.addEventListener("keypress", (e) => {
 
 const makeSound = (n) => new Audio(`sounds/tom-${n}.mp3`).play(); 
 
+
 function Animation(key){
     var activebtn = document.querySelector(`button[data-no="${key}"]`);
     activebtn.classList.add("pressed");
