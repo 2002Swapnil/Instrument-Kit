@@ -49,11 +49,6 @@ h1 {
   opacity: 0.8;
 }
 
-.pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
-  opacity: 0.5;
-}
-
 .red {
   color: red;
 }
@@ -80,5 +75,11 @@ h1 {
 
 .drum:hover{
   cursor: pointer;
+  transform: scale(1.1);
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.7;
   transform: scale(1.1);
 }
